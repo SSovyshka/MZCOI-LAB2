@@ -118,6 +118,16 @@ error = np.abs((x_analog_example - x_reconstructed_example) / x_analog_example) 
 print(f"\n--------------------------\nВідносна похибка відновлення\n--------------------------\nt = {t_example} с: {error:.2f}%")
 ```
 
-
 ## Результати
+<div style="display: flex; flex-direction: column; gap: 20px; margin-top: 20px;">
+  <img src="images/grafik.png" alt="Графік" style="max-width: 80%;"><br>
+  <em>Рисунок 1: Графічні результати</em>
+  <br><br><br>
+  <img src="images/console.png" alt="Консоль" style="max-width: 80%;"><br>
+  <em>Рисунок 2: Результати у консолі</em>
+</div>
+
+
+
 ## Висновки
+Під час виконання лабораторної роботи було закріплено теоретичні знання отримані на лекційних заняттях. У процесі виконання індивідуального завдання було отримано практичні навички із вивчення процесу дискретизації аналогового сигналу в цифрових системах.
